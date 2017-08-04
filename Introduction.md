@@ -25,6 +25,6 @@ Numeric codes representing qualitative variables are also called **targets**.
 
 ### Linear models and Least Squares
 
-For an input vector X<sup>T</sup> = (X<sub>1</sub> X<sub>2</sub> ... X<sub>p</sub>), we can write 
+For an input vector X^T = (X^1 X^2 ... X^p), we can write 
 
-					Ŷ = β<sub>0</sub> + ∑<sub>j=1</sub><sup>p</sup>X<sub>j</sub>β<sub>j</sub>
+					Ŷ = \beta_0 + \sum_{j=1}^{p} X_j\beta_j
