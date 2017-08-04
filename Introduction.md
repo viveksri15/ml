@@ -18,3 +18,13 @@
 In statistical literature, the input variables are called **predictors**, otherwise also known as **independent variables**, or **features**. The output variables are also called **response** or **dependent variables**.
 
 Variables can be quantitative (comparable numbers) or qualitative (like class of variables eg. spam/not-spam). Qualitative variables are also called **categorical** or **descrete** variables or **factors**.
+
+**Ordered categorical** variables are those where ordering exists, but are qualitative. For example, *small*, *medium*, *large*.
+
+Numeric codes representing qualitative variables are also called **targets**.
+
+### Linear models and Least Squares
+
+For an input vector X<sup>T</sup> = (X<sub>1</sub> X<sub>2</sub> ... X<sub>p</sub>), we can write 
+
+					Ŷ = β<sub>0</sub> + ∑<sub>j=1</sub><sup>p</sup>X<sub>j</sub>β<sub>j</sub>
